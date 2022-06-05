@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		906FAF8E2837F98800D8BE9B /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906FAF8D2837F98800D8BE9B /* TasksViewController.swift */; };
 		906FAF902838033B00D8BE9B /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906FAF8F2838033B00D8BE9B /* Task.swift */; };
 		906FAF922838035300D8BE9B /* MyUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906FAF912838035300D8BE9B /* MyUser.swift */; };
 		906FAF9528465DDF00D8BE9B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 906FAF9428465DDF00D8BE9B /* GoogleService-Info.plist */; };
 		906FAF98284CC9D000D8BE9B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906FAF96284CC9D000D8BE9B /* LoginViewController.swift */; };
 		906FAF99284CC9D000D8BE9B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906FAF97284CC9D000D8BE9B /* RegisterViewController.swift */; };
+		906FAF9B284CCB1000D8BE9B /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906FAF9A284CCB1000D8BE9B /* TasksViewController.swift */; };
 		909EA5362837C02900296023 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909EA5352837C02900296023 /* AppDelegate.swift */; };
 		909EA5382837C02900296023 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909EA5372837C02900296023 /* SceneDelegate.swift */; };
 		909EA53A2837C02900296023 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909EA5392837C02900296023 /* StartViewController.swift */; };
@@ -25,12 +25,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		906FAF8D2837F98800D8BE9B /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TasksViewController.swift; path = "imsaler/Supporting files/TasksViewController.swift"; sourceTree = SOURCE_ROOT; };
 		906FAF8F2838033B00D8BE9B /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		906FAF912838035300D8BE9B /* MyUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUser.swift; sourceTree = "<group>"; };
 		906FAF9428465DDF00D8BE9B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		906FAF96284CC9D000D8BE9B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		906FAF97284CC9D000D8BE9B /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		906FAF9A284CCB1000D8BE9B /* TasksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
 		909EA5322837C02900296023 /* imsaler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imsaler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		909EA5352837C02900296023 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		909EA5372837C02900296023 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -94,9 +94,9 @@
 		909EA5492837C04F00296023 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				906FAF9A284CCB1000D8BE9B /* TasksViewController.swift */,
 				906FAF96284CC9D000D8BE9B /* LoginViewController.swift */,
 				906FAF97284CC9D000D8BE9B /* RegisterViewController.swift */,
-				906FAF8D2837F98800D8BE9B /* TasksViewController.swift */,
 				909EA5392837C02900296023 /* StartViewController.swift */,
 			);
 			path = Controllers;
@@ -196,13 +196,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				906FAF98284CC9D000D8BE9B /* LoginViewController.swift in Sources */,
+				906FAF9B284CCB1000D8BE9B /* TasksViewController.swift in Sources */,
 				909EA53A2837C02900296023 /* StartViewController.swift in Sources */,
 				909EA5362837C02900296023 /* AppDelegate.swift in Sources */,
 				906FAF99284CC9D000D8BE9B /* RegisterViewController.swift in Sources */,
 				906FAF922838035300D8BE9B /* MyUser.swift in Sources */,
 				909EA5382837C02900296023 /* SceneDelegate.swift in Sources */,
 				906FAF902838033B00D8BE9B /* Task.swift in Sources */,
-				906FAF8E2837F98800D8BE9B /* TasksViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
