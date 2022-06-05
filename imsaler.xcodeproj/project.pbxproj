@@ -94,10 +94,10 @@
 		909EA5492837C04F00296023 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				909EA54A2837C3C800296023 /* LoginViewController.swift */,
+				909EA54C2837CBA900296023 /* RegisterViewController.swift */,
 				906FAF8D2837F98800D8BE9B /* TasksViewController.swift */,
 				909EA5392837C02900296023 /* StartViewController.swift */,
-				909EA54C2837CBA900296023 /* RegisterViewController.swift */,
-				909EA54A2837C3C800296023 /* LoginViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
